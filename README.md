@@ -11,7 +11,6 @@ This project provides automated end-to-end tests for the Demoblaze web applicati
 - [Setup Instructions](#setup-instructions)
 - [How to Run the Tests](#how-to-run-the-tests)
 - [Test Design and Approach](#test-design-and-approach)
-- [Project Structure](#project-structure)
 - [Troubleshooting](#troubleshooting)
 - [References](#references)
 
@@ -34,7 +33,7 @@ Inside the project directory, install dependencies:
 npm install
 ```
 
-4. **Open Cypress Test Runner**
+## How to run the tests
 
 To open the graphical Cypress Test Runner (helpful for beginners):
 ```bash
@@ -70,19 +69,6 @@ you also can see the videos in `cypress/videos`
 - **Fixtures:** Test data such as user details and product information are stored in files within the `cypress/fixtures` directory.
 - **Selectors:** Tests use explicit text selectors (like button labels) for resilience against UI style changes.
 - **Automation:** Tests mimic real user interactions as closely as possible for realistic coverage.
-
----
-
-## Project Structure
-.
-├── cypress/
-│ ├── fixtures/ # JSON data for tests (products, users, orders)
-│ ├── e2e/ # Spec file, representing an user scenario
-│ ├── support/
-│ │ └── appActions/ # Custom commands and action helpers
-├── package.json
-├── README.md
-
 
 ---
 
