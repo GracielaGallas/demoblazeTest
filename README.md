@@ -30,21 +30,21 @@ If you don't already have Node.js installed, download and install it from [nodej
 
 3. **Install Project Dependencies**
 Inside the project directory, install dependencies:
-"""bash
+```bash
 npm install
-"""
+```
 
 4. **Open Cypress Test Runner**
 
 To open the graphical Cypress Test Runner (helpful for beginners):
-"""bash
+```bash
 npm run cypress:open 
-"""
+```
 
 Or, to run all tests in the terminal (headless):
-"""bash
+```bash
 npm run cypress:run 
-"""
+```
 
 Test results and screenshots (in case of error) will be saved to the `cypress/results` or `cypress/screenshots` directories.
 you also can see the videos in `cypress/videos`
